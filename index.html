@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - Talking Calculator</title>
   <style>
+    /* Global reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -13,6 +20,7 @@
       color: #333;
       line-height: 1.6;
     }
+
     header {
       background: linear-gradient(135deg, #4a90e2, #2a5298);
       color: white;
@@ -20,35 +28,44 @@
       padding: 2rem 1rem;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
+
     header h1 {
-      margin: 0;
+      margin-bottom: 0.5rem;
       font-size: 2rem;
     }
+
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       padding: 2rem;
     }
+
     h2 {
       color: #2a5298;
       margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
     }
-    h2 {
+
+    p {
       margin-bottom: 1rem;
+      font-size: 1rem;
     }
+
     .contact {
       background: #eef3fb;
       padding: 1rem;
       border-left: 4px solid #4a90e2;
       margin-top: 1.5rem;
+      word-wrap: break-word;
     }
 
-h2 {
-      color: #333;
-      font-weight: bold;
-    
-  
-    
     footer {
       text-align: center;
       padding: 1rem;
@@ -57,31 +74,71 @@ h2 {
       background: #2a5298;
       color: white;
     }
+
     /* Smooth scroll effect */
     html {
       scroll-behavior: smooth;
     }
+
     /* Simple fade-in animation */
     .fade-in {
       animation: fadeIn 1s ease-in;
     }
+
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      .container {
+        padding: 1.2rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1.5rem 0.8rem;
+      }
+      header h1 {
+        font-size: 1.4rem;
+      }
+      header p {
+        font-size: 0.9rem;
+      }
+      .container {
+        padding: 1rem;
+      }
+      footer {
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
 <body>
   <header class="fade-in">
     <h1>Privacy Policy</h1>
-    <h1>Talking Calculator App</h1>
+    <p>Talking Calculator App</p>
   </header>
 
   <div class="container fade-in">
-    <p  class="pa">
-      Talking Calculator Our built the app to help people, 
+    <p>
+      Talking Calculator was built to help people, 
       including those who are visually impaired, perform calculations with voice support. 
-      This page is used to inform visitors regarding our policies with the collection, 
+      This page explains our policies about the collection, 
       use, and disclosure of Personal Information.
     </p>
 
@@ -110,8 +167,9 @@ h2 {
 
     <h2>7. Contact Us</h2>
     <div class="contact">
-      <p>If you have any questions or suggestions about our Privacy Policy, please contact us:9676541262</p>
-      <p> arunkumarcommunications55@gmail.com</p>
+      <p>If you have any questions or suggestions about our Privacy Policy, please contact us:</p>
+      <p>📞 9676541262</p>
+      <p>📧 arunkumarcommunications55@gmail.com</p>
     </div>
   </div>
 
@@ -120,7 +178,3 @@ h2 {
   </footer>
 </body>
 </html>
-
-
-
-
